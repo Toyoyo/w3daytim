@@ -25,17 +25,26 @@ To build this, you need the following:
 * Run the thing
 
 ## Obvious FAQ
-Q: Why this program?
-R: I might have too much free time. Also FFXIV servers were on maintenance.
+**Q**: Why this program?
 
-Q: Why using the 'daytime' protocol? the 'date' one is more standard.
-R: 2038
+**A**: I might have too much free time. Also FFXIV servers were on maintenance.
+##
 
-Q: Why not using the NTP protocol?
-R: If you want to port libntp/ntpdate on Win32s/winsock 1.1, you're welcome!
+**Q**: Why using the 'daytime' protocol? the 'date' one is more standard.
 
-Q: Why the gethostbyname()/gethostbyaddr() thing?
-R: winsock 1.1
+**A**: 2038
+##
 
-Q: Why this FAQ?
-R: Check the first question
+**Q**: Why not using the NTP protocol?
+
+**A**: If you want to port libntp/ntpdate on Win32s/winsock 1.1, you're welcome!
+##
+
+**Q**: Why the gethostbyname()/gethostbyaddr() thing?
+
+**A**: winsock 1.1
+##
+
+**Q**: Why this FAQ?
+
+**A**: Check the first question
